@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local databases and uploaded data
+data/
+*.db
+*.sqlite3
+
+# ChromaDB
+.chroma/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
